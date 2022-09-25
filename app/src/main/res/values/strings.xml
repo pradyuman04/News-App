@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">News Hub</string>
+
+    <string name="web_client_id">262861576264-il64687hqqshnrl9qn29t4ij9s9h610c.apps.googleusercontent.com</string>
+
+    <string name="facebook_app_id">359052309769192</string>
+    <string name="fb_login_protocol_scheme">fb359052309769192</string>
+    <string name="facebook_client_token">de13c8f94d683d6d26bd610707c7b76e</string>
+
+</resources>

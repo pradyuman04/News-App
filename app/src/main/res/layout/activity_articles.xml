@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.articlesActivity.view.articlesActivity">
+
+    <RelativeLayout
+        android:id="@+id/headerRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:layout_below="@id/imageView"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:src="@drawable/arrow" />
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_below="@id/imageView"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:src="@drawable/share"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_below="@id/headerRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:cardBackgroundColor="@color/white">
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp">
+
+            <TextView
+                android:id="@+id/titleTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Heading Sample Text Is Here"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/authorTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleTxt"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Author Name"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_below="@id/authorTxt"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:foregroundGravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/descriptionTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." />
+
+            <TextView
+                android:id="@+id/contentTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/descriptionTxt"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

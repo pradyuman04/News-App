@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/person"
+        android:title="Home"
+        android:icon="@drawable/home_black"
+        android:iconTint="@color/black"/>
+    <item
+        android:id="@+id/home1"
+        android:title="Trending"
+        android:icon="@drawable/promotion_black"/>
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        android:icon="@drawable/setting_black"/>
+
+</menu>

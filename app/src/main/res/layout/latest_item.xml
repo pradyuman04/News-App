@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/latestCardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:elevation="@dimen/_10sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            app:cardCornerRadius="@dimen/_5sdp"
+            android:elevation="@dimen/_15sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/_20sdp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_90sdp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_background" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/moreView"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:alpha="0.8"
+            android:src="@drawable/ic_baseline_more_vert_24"
+            android:tint="@android:color/darker_gray" />
+
+        <RelativeLayout
+            android:id="@+id/secRelative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/cardView"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/titleTxt"
+                android:layout_width="@dimen/_220sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Elon Musk's countersiut against\nTwitter says it misled him - \nBusiness Insider"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_9sdp"
+                android:layout_marginBottom="@dimen/_2sdp"/>
+
+            <TextView
+                android:id="@+id/descriptionTxt"
+                android:layout_width="@dimen/_220sdp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleTxt"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_toEndOf="@id/cardView"
+                android:alpha="0.7"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                android:textSize="@dimen/_7sdp" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@android:color/secondary_text_dark"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_below="@id/secRelative"
+            android:alpha="0.5"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

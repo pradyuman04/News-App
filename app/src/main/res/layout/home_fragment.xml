@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.homeFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/headerTitleRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp">
+
+            <ImageView
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_15sdp"
+                android:src="@drawable/search"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="News Hub"
+                android:textSize="@dimen/_20sdp"
+                android:fontFamily="@font/sourcesanspro_bold"
+                android:textColor="@color/black"
+                android:layout_centerInParent="true"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:src="@drawable/profile" />
+
+
+        </RelativeLayout>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/headerTitleRelativeLayout"
+            android:hapticFeedbackEnabled="true"
+            android:scrollbarAlwaysDrawHorizontalTrack="true"
+            app:tabIndicatorHeight="@dimen/_3sdp"
+            app:tabIndicatorColor="#1968DD"
+            app:tabMode="scrollable"
+            app:tabIndicatorAnimationMode="elastic"
+            app:tabIndicatorAnimationDuration="@integer/material_motion_duration_short_1"
+            app:tabIndicator="@drawable/custom_tab_indicator"
+            app:tabIndicatorGravity="bottom"
+            app:tabIndicatorFullWidth="false"
+            app:tabSelectedTextColor="#1968DD" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tabLayout">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
