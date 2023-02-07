@@ -1,4 +1,4 @@
-# Live News Application
+# News Application
 
 Live News Application is provides you Live news using Free News API. I had use Google news API and Restful API. I used Retrofit method call API. Live News Application was made using Kotlin Lanugage.
 
