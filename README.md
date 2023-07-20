@@ -60,7 +60,7 @@ If you have any feedback, please reach out to us at pradyumangodhani007@gmail.co
 
 ## 🛠 Skills
 
-C Language, C++ , Core JAVA, Kotlin, Android 
+C Language, C++ , Core JAVA, Kotlin, Android
 
 
 ## Support
