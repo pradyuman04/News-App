@@ -15,7 +15,7 @@ data class GoogleModel(
 )
 
 data class Source(
-
+ 
 	@field:SerializedName("name")
 	val name: String? = null,
 
