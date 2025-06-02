@@ -56,3 +56,4 @@ class TechnologyAdapter(val activity: FragmentActivity?,val list: List<ArticlesI
 
     }
 }
+
