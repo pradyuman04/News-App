@@ -13,7 +13,7 @@ data class NewsModel(
 	@field:SerializedName("status")
 	val status: String? = null
 )
-
+ 
 data class ArticlesItem2(
 
 	@field:SerializedName("publishedAt")
