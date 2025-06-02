@@ -14,6 +14,7 @@ import com.example.newshub.R
 import com.example.newshub.activity.articlesActivity.view.articlesActivity
 import com.example.newshub.utils.ArticlesItem2
 
+
 class EntertainmentAdapter(val activity: FragmentActivity?,val list: List<ArticlesItem2>) : RecyclerView.Adapter<EntertainmentAdapter.ViewData>(){
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewData {
