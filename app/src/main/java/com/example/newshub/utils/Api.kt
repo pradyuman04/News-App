@@ -17,7 +17,7 @@ class Api {
 
 
         var apiInterface = ApiClient.apiClientGoogle().create(ApiInterface::class.java)
-
+  
         apiInterface.apiInterfaceGoogle("google-news-uk", "92d90b5b65714afb87fb7e1d21950a6f")
             .enqueue(object : Callback<GoogleModel> {
                 override fun onResponse(call: Call<GoogleModel>, response: Response<GoogleModel>) {
