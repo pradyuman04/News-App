@@ -15,7 +15,7 @@ In Live News Application you can read news in very differnt Category. I used Que
 
 ## Developer
 
-- [@pradyuman001](https://github.com/pradyuman001)
+- [@pradyuman04](https://github.com/pradyuman04)
 
 
 ## Features
