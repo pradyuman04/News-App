@@ -33,3 +33,5 @@ class tabLayotAdapter(val activity: FragmentActivity?,val childFragmentManager: 
             }
         }
 }
+
+    
