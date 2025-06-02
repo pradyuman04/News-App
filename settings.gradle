@@ -20,4 +20,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "News Hub"
-include ':app'
+include ':app'  
