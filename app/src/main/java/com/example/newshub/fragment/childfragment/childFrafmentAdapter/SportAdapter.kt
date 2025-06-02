@@ -57,3 +57,4 @@ class SportAdapter(val activity: FragmentActivity?,val list: List<ArticlesItem2>
     }
 
 }
+
