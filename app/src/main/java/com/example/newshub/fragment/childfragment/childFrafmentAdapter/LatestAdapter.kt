@@ -57,3 +57,4 @@ class latestAdapter(val latestFragment: FragmentActivity?,val list: List<Article
 
     }
 }
+
