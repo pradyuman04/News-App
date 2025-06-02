@@ -13,7 +13,7 @@ class signinActivity : AppCompatActivity() {
 
     lateinit var binding: ActivitySigninBinding
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+    override fun onCreate(savedInstanceState: Bundle?) { 
         super.onCreate(savedInstanceState)
 
         binding = ActivitySigninBinding.inflate(layoutInflater)
