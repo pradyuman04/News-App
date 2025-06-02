@@ -53,3 +53,4 @@ class trendingAdapter(val activity: FragmentActivity?, val list: List<ArticlesIt
 
     }
 }
+
