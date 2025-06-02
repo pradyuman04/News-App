@@ -89,3 +89,4 @@ class worldFragment : Fragment() {
             loaddata(l2)
         }, 1000)
     }*/
+    
