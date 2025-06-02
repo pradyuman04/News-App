@@ -37,6 +37,7 @@ class BusinessAdapter(val activity: FragmentActivity?,val list: List<ArticlesIte
 
             activity.startActivity(intent)
 
+            
         }
 
     }
