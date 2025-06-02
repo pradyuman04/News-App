@@ -15,7 +15,7 @@ class ApiClient {
 
             var retrofit = Retrofit.Builder().baseUrl(baseUrl).addConverterFactory(GsonConverterFactory.create()).build()
 
-            return retrofit
+            return retrofit 
 
         }
 
