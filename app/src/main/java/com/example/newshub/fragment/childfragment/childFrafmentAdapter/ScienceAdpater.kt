@@ -58,3 +58,4 @@ class ScienceAdpater(val activity: FragmentActivity?,val list: List<ArticlesItem
     }
 
 }
+
