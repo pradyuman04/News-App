@@ -15,3 +15,4 @@ interface ApiInterface {
 
     fun apiInterfaceNews(@Query("country") country : String, @Query ("category") category : String , @Query ("apiKey") apiKey:String ):Call<NewsModel>
 } 
+   
