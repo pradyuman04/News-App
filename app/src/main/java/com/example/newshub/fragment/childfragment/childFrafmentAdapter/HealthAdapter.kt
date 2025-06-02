@@ -63,3 +63,4 @@ class HealthAdapter(val activity: FragmentActivity?,val list: List<ArticlesItem2
     }
 
 }
+
