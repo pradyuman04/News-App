@@ -23,7 +23,7 @@ import java.util.*
 
 class loginActivity : AppCompatActivity() {
 
-    lateinit var binding: ActivityLoginBinding
+    lateinit var binding: ActivityLoginBinding 
     lateinit var callbackManager: CallbackManager
     private val RC_SIGN_IN = 1
     val email = "email"
