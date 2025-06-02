@@ -13,7 +13,7 @@ import com.example.newshub.fragment.trendingFragment
 class articlesActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityArticlesBinding
-
+ 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
