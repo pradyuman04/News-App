@@ -10,7 +10,7 @@ import com.google.firebase.auth.FirebaseAuth
 class profileActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityProfileBinding
-
+  
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
